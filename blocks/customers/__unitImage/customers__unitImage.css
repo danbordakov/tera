@@ -14,3 +14,10 @@
     max-height: 30px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .customers__unitImage {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+}

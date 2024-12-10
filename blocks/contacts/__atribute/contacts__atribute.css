@@ -3,3 +3,9 @@
   text-decoration: none;
   margin-bottom: 10px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .contacts__atribute {
+    color: white;
+  }
+}

@@ -15,3 +15,10 @@
     padding: 10px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background-color: #191919;
+    color: #fff;
+  }
+}
