@@ -23,5 +23,4 @@
 @import url("../blocks/contacts/contacts.css");
 @import url("../blocks/contacts/__atribute/contacts__atribute.css");
 @import url("../blocks/footer/footer.css");
-@import url("../blocks/wow/wow.css");
-@import url("../blocks/animated/animated.css");
+@import url("../blocks/observerAnimations/observerAnimations.css");
