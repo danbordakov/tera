@@ -19,6 +19,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  transition: ease-in-out .2s;
 }
 
 @media screen and (max-width: 375px) {
@@ -31,5 +32,6 @@
   .page {
     background-color: #191919;
     color: #fff;
+    transition: ease-in-out .2s;
   }
 }

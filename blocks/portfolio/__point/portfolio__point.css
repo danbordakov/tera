@@ -6,10 +6,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: ease-in-out .2s;
 }
 
 @media screen and (max-width: 430px) {
   .portfolio__point {
     min-height: 30px;
   }
+}
+
+.portfolio__point:hover {
+  opacity: .5;
+  transform: scale(105%);
+  transition: ease-in-out .2s;
 }
