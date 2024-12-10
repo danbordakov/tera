@@ -15,6 +15,7 @@
 @import url("../blocks/portfolio/__points/portfolio__points.css");
 @import url("../blocks/portfolio/__point/portfolio__point.css");
 @import url("../blocks/portfolio/__pointImage/portfolio__pointImage.css");
+@import url("../blocks/portfolio/__pointName/portfolio__pointName.css");
 @import url("../blocks/customers/customers.css");
 @import url("../blocks/customers/__units/customers__units.css");
 @import url("../blocks/customers/__unit/customers__unit.css");
