@@ -9,7 +9,7 @@
   transition: ease-in-out .2s;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .customers__unitImage {
     max-height: 30px;
   }

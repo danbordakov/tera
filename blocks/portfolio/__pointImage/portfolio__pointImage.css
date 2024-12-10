@@ -3,7 +3,7 @@
   padding-right: 10px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .portfolio__pointImage {
     height: 30px;
   }
