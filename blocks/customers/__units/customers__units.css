@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 430px) {
   .customers__units {
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
     row-gap: 20px;
   }
 }
