@@ -1,0 +1,13 @@
+.content {
+  padding: 0 48px 0 48px;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+@media screen and (max-width: 375px) {
+  .content {
+    padding: 0 10px 0 10px;
+  }
+}

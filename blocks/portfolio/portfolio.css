@@ -1,0 +1,9 @@
+.portfolio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}

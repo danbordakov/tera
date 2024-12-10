@@ -1,0 +1,15 @@
+.content__title {
+  margin: 0 0 50px 0;
+  font-size: 50px;
+  font-family: 'bebasNeue';
+  font-weight: 100;
+}
+
+@media screen and (max-width: 375px) {
+  .content__title {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-family: 'bebasNeue';
+    font-weight: 100;
+  }
+}

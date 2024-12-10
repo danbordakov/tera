@@ -1,0 +1,17 @@
+.footer {
+  padding: 10px 48px 10px 48px;
+  text-align: left;
+  /* background-color: #0C0C0C; */
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  max-width: 1184px;
+  width: calc(100% - 96px);
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.directions__point {
+  text-align: left;
+  align-content: center;
+  padding-left: 5px;
+  border-left: 5px solid black;
+  min-height: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .directions__point {
+    text-align: left;
+    align-content: center;
+    padding-left: 5px;
+    border-left: 5px solid black;
+    min-height: 30px;
+  }
+}
