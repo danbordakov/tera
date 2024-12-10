@@ -16,6 +16,10 @@
   flex-direction: column;
   background-color: #F2F2F2;
   /* position: relative; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media screen and (max-width: 375px) {
