@@ -6,7 +6,7 @@ html {
   scroll-snap-type: y mandatory;
   -webkit-scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
-  scroll-padding: 5vh 0;
+  /* scroll-padding: 5vh 0; */
 }
 
 @media screen and (max-width: 375px) {
