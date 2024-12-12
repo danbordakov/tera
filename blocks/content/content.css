@@ -4,7 +4,7 @@
 
 html {
   scroll-snap-type: y mandatory;
-  scroll-padding: 5px 0;
+  -webkit-scroll-snap-type: y mandatory;
 }
 
 @media screen and (max-width: 375px) {
