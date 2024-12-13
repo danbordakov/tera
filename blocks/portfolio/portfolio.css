@@ -1,6 +1,6 @@
 .portfolio {
   /* height: 100vh; */
-  min-height: 90dvh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,5 +8,4 @@
   scroll-snap-align: start;
   -webkit-scroll-snap-align: start;
   scroll-snap-stop: always;
-  scroll-padding: 5dvh 0 5dvh 0;
 }
