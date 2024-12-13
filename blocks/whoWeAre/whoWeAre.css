@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  scroll-snap-align: start;
-  -webkit-scroll-snap-align: start;
+  scroll-snap-align: center;
+  -webkit-scroll-snap-align: center;
   scroll-snap-stop: always;
 
 }
