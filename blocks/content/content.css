@@ -5,6 +5,8 @@
 html {
   scroll-snap-type: y mandatory;
   -webkit-scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 375px) {

@@ -20,8 +20,7 @@
   -ms-user-select: none;
   user-select: none;
   transition: ease-in-out .2s;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 }
 
 @media screen and (max-width: 375px) {
