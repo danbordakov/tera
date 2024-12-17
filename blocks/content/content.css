@@ -3,7 +3,6 @@
 }
 
 html {
-  height: 100svh;
   scroll-snap-type: y mandatory;
   -webkit-scroll-snap-type: y mandatory;
 }
