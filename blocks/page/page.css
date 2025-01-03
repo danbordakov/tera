@@ -22,6 +22,7 @@
   transition: ease-in-out .2s;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  height: 100svh;
 }
 
 @media screen and (max-width: 375px) {
