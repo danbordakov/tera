@@ -24,3 +24,5 @@
 @import url("../blocks/contacts/__atribute/contacts__atribute.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/observerAnimations/observerAnimations.css");
+@import url("../blocks/preloader/preloader.css");
+@import url("../blocks/preloader/__image/preloader__image.css");

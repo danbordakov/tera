@@ -1,0 +1,10 @@
+.preloader__image {
+  width: 33%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .preloader__image {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+}
