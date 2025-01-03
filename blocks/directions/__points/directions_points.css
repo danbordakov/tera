@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 430px) {
   .directions__points {
+    grid-template-columns: 1fr;
     row-gap: 20px;
   }
 }

@@ -7,7 +7,7 @@
   min-height: 50px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .directions__point {
     text-align: left;
     align-content: center;
