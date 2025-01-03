@@ -10,7 +10,7 @@
   height: 100dvh;
   width: 100vw;
   position: fixed;
-  -webkit-transform: translateZ(0);
+  -webkit-transform: translateZ(1000);
   top: 0;
   left: 0;
   z-index: 1000;
