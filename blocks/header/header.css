@@ -1,3 +1,13 @@
+@keyframes apearing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .header {
   max-width: 1184px;
   min-height: 52px;
@@ -13,6 +23,8 @@
   width: calc(100% - 96px);
   top: 0;
   transition: ease-in-out .2s;
+
+
 }
 
 @media screen and (max-width: 375px) {

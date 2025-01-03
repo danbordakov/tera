@@ -1,9 +1,25 @@
+@keyframes apearing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .content {
   padding: 0 48px 0 48px;
   /* height: 80vh; */
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+
+  animation-name: apearing;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 2s;
 }
 
 /* html {
