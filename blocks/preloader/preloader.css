@@ -7,7 +7,7 @@
 .preloader {
   background-color: #F2F2F2;
   box-shadow: 0px 0px 100px black;
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   position: fixed;
   -webkit-transform: translateZ(0);
