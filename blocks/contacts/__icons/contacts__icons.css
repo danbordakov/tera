@@ -1,0 +1,11 @@
+.contacts__icons {
+  height: 19px;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .contacts__icons {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+}
