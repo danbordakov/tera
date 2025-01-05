@@ -9,3 +9,10 @@
     -webkit-filter: invert(100%);
   }
 }
+
+@media screen and (max-width: 375px) {
+  .contacts__icons {
+    height: 15px;
+    margin-right: 8px;
+  }
+}
