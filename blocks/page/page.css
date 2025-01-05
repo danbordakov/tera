@@ -38,3 +38,7 @@
     transition: ease-in-out .2s;
   }
 }
+
+.page::-webkit-scrollbar {
+  display: none;
+}
