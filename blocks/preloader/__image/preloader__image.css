@@ -1,5 +1,25 @@
+@keyframes apearing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .preloader__image {
   width: 33%;
+  position: absolute;
+  animation-name: apearing;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 430px) {
+  .preloader__image {
+    width: 66%;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -7,4 +27,23 @@
     filter: invert(100%);
     -webkit-filter: invert(100%);
   }
+}
+
+#preloader_pr1 {
+  animation-duration: .5s;
+}
+
+#preloader_pr2 {
+  animation-duration: .5s;
+  animation-delay: .3s;
+}
+
+#preloader_pr3 {
+  animation-duration: .5s;
+  animation-delay: .6s;
+}
+
+#preloader_pr4 {
+  animation-duration: .5s;
+  animation-delay: .9s;
 }
