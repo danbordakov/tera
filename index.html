@@ -2,7 +2,12 @@
 <html lang="ru" class="carousel">
 
 <head>
-  <link rel="icon" href="./images/logo_black.png" type="image/x-icon">
+  <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./images/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="./images/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./images/favicon/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <link rel="icon" href="./images/favicon/android-chrome-512x512.png" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
   <link rel="stylesheet" href="pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +16,7 @@
   <!-- <meta name="theme-color" content="#F2F2F2" /> -->
   <title>ИТЕРА</title>
   <script defer src="./scripts/app.js"></script>
-  <script src="./scripts/navdots.js"></script>
+  <script defer src="./scripts/navdots.js"></script>
 </head>
 
 <body class="page">
@@ -22,26 +27,27 @@
   <!-- <div class="preloader">
     <img src="images/logo_black.png" alt="логотип компании" class="preloader__image">
   </div> -->
+  <nav id="navbar" class="navbar">
+    <ul class="navbar__menu">
+      <li>
+        <a data-scroll="whoWeAre" href="#whoWeAre" class="navbar__dot navbar__dot_active">&#8226;</a>
+      </li>
+      <li>
+        <a data-scroll="directions" href="#directions" class="navbar__dot">&#8226;</a>
+      </li>
+      <li>
+        <a data-scroll="portfolio" href="#portfolio" class="navbar__dot">&#8226;</a>
+      </li>
+      <li>
+        <a data-scroll="customers" href="#customers" class="navbar__dot">&#8226;</a>
+      </li>
+      <li>
+        <a data-scroll="contacts" href="#contacts" class="navbar__dot">&#8226;</a>
+      </li>
+    </ul>
+  </nav>
   <main class="content">
-    <nav id="navbar" class="navbar">
-      <ul class="navbar__menu">
-        <li>
-          <a data-scroll="whoWeAre" href="#whoWeAre" class="navbar__dot navbar__dot_active">&#8226;</a>
-        </li>
-        <li>
-          <a data-scroll="directions" href="#directions" class="navbar__dot">&#8226;</a>
-        </li>
-        <li>
-          <a data-scroll="portfolio" href="#portfolio" class="navbar__dot">&#8226;</a>
-        </li>
-        <li>
-          <a data-scroll="customers" href="#customers" class="navbar__dot">&#8226;</a>
-        </li>
-        <li>
-          <a data-scroll="contacts" href="#contacts" class="navbar__dot">&#8226;</a>
-        </li>
-      </ul>
-    </nav>
+
     <section class="whoWeAre" id="whoWeAre">
       <h1 class="content__title hidden">ИТЕРА</h1>
       <p class="whoWeAre__text hidden">Слаженная команда профессионалов,
