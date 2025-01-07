@@ -34,3 +34,9 @@
     row-gap: 10px;
   }
 }
+
+@media screen and (max-height: 430px) {
+  .customers__units {
+    row-gap: 10px;
+  }
+}

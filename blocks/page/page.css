@@ -42,3 +42,9 @@
 .page::-webkit-scrollbar {
   display: none;
 }
+
+/* @media (orientation: landscape) and (max-width: 896px) {
+  .page {
+    opacity: 0;
+  }
+} */

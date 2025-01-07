@@ -35,3 +35,9 @@
     column-gap: 0;
   }
 }
+
+@media screen and (max-height: 430px) {
+  .portfolio__points {
+    row-gap: 10px;
+  }
+}

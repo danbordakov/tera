@@ -41,3 +41,9 @@
     transition: ease-in-out .2s;
   }
 }
+
+@media screen and (max-height: 430px) {
+  .header {
+    min-height: 40px;
+  }
+}
