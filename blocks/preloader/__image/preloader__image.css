@@ -9,16 +9,22 @@
 }
 
 .preloader__image {
-  width: 33%;
+  width: 20%;
   position: absolute;
   animation-name: apearing;
   animation-fill-mode: backwards;
   animation-timing-function: ease-in-out;
 }
 
+@media screen and (max-width: 640px) {
+  .preloader__image {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .preloader__image {
-    width: 66%;
+    width: 80%;
   }
 }
 

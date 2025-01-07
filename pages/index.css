@@ -26,6 +26,7 @@
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/observerAnimations/observerAnimations.css");
 @import url("../blocks/preloader/preloader.css");
+@import url("../blocks/preloader/_hidden/preloader_hidden.css");
 @import url("../blocks/preloader/__image/preloader__image.css");
 @import url("../blocks/navbar/navbar.css");
 @import url("../blocks/navbar/__menu/navbar__menu.css");

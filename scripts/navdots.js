@@ -5,7 +5,7 @@ const slideWrapper = document.querySelector('.content');
 const n_slides = slides.length;
 console.log(n_slides);
 
-window.addEventListener('resize', () => {
+visualViewport.addEventListener('resize', () => {
   slideHeight = slides[index_slideCurrent()].offsetHeight;
   console.log(slideHeight);
   updateNavdot()
