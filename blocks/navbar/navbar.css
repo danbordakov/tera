@@ -3,3 +3,9 @@
   right: 0;
   top: calc(50% - 61px);
 }
+
+@media screen and (max-height: 430px) {
+  .navbar {
+    display: none;
+  }
+}
