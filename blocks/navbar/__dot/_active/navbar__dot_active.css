@@ -1,4 +1,5 @@
 .navbar__dot_active {
   opacity: 1;
   transition: opacity .1s;
+  font-weight: 900;
 }

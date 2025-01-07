@@ -1,6 +1,6 @@
 @keyframes disapearing {
   to {
-    transform: translateX(calc(-100vw - 100px));
+    transform: translateX(calc(-100vw - 120px));
   }
 }
 
@@ -19,9 +19,9 @@
   justify-content: center;
   animation-name: disapearing;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
-  animation-duration: 1s;
-  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  animation-duration: .7s;
+  animation-delay: 1.5s;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -30,20 +30,20 @@
 }
 
 #preloader_pr1 {
-  animation-duration: .5s;
+  animation-duration: .4s;
 }
 
 #preloader_pr2 {
-  animation-duration: .5s;
-  animation-delay: .3s;
+  animation-duration: .4s;
+  animation-delay: .2s;
 }
 
 #preloader_pr3 {
-  animation-duration: .5s;
-  animation-delay: .6s;
+  animation-duration: .4s;
+  animation-delay: .4s;
 }
 
 #preloader_pr4 {
-  animation-duration: .5s;
-  animation-delay: .9s;
+  animation-duration: .4s;
+  animation-delay: .6s;
 }
