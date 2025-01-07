@@ -3,6 +3,7 @@
   text-decoration: none;
   opacity: .2;
   transition: opacity .1s;
+  margin: 5px 0;
 }
 
 @media (prefers-color-scheme: dark) {
