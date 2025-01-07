@@ -44,6 +44,6 @@
 
 @media screen and (max-height: 430px) {
   .header {
-    min-height: 40px;
+    display: none;
   }
 }

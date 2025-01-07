@@ -25,3 +25,9 @@
     transition: ease-in-out .2s;
   }
 }
+
+@media screen and (max-height: 430px) {
+  .footer {
+    display: none;
+  }
+}
