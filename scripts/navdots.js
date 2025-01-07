@@ -1,41 +1,45 @@
-var carousel = document.querySelector('.content');
-console.log(carousel);
+const navdots = document.querySelectorAll('.navbar__dot');
+const slides = document.querySelectorAll('.slide');
+const slideWrapper = document.querySelector('.content');
 
-var indicator = document.querySelector('#navbar');
-var elements = document.querySelectorAll('.content > *');
-var currentIndex = 0;
+const n_slides = slides.length;
+console.log(n_slides);
 
-function renderIndicator() {
-  // this is just an example indicator; you can probably do better
-  indicator.innerHTML = '';
-  for (var i = 0; i < elements.length; i++) {
-    var button = document.createElement('button');
-    button.innerHTML = (i === currentIndex ? '\u2022' : '\u25e6');
-    (function(i) {
-      button.onclick = function() {
-        elements[i].scrollIntoView();
-      }
-    })(i);
-    indicator.appendChild(button);
-  }
+window.addEventListener('resize', () => {
+  slideHeight = slides[index_slideCurrent()].offsetHeight;
+  console.log(slideHeight);
+  updateNavdot()
+})
+
+let slideHeight = slideWrapper.offsetHeight;
+console.log(slideHeight);
+
+
+function markNavdot(index) {
+  navdots[index].classList.add('navbar__dot_active');
 }
 
-var observer = new IntersectionObserver(function(entries, observer) {
-  // find the entry with the largest intersection ratio
-  var activated = entries.reduce(function (max, entry) {
-    return (entry.intersectionRatio > max.intersectionRatio) ? entry : max;
+function index_slideCurrent() {
+  return Math.round( slideWrapper.scrollTop / slideHeight );
+}
+
+function updateNavdot() { 
+  const c = index_slideCurrent();
+  console.log(c);
+  if (c>=0 && c<=n_slides) {
+  return markNavdot(c)
+  } 
+}
+
+slideWrapper.addEventListener('scroll', () => {
+  navdots.forEach(navdot => {
+    navdot.classList.remove('navbar__dot_active');
+    updateNavdot();
   });
-  if (activated.intersectionRatio > 0) {
-    currentIndex = elementIndices[activated.target.getAttribute("id")];
-    console.log(currentIndex);
-    
-    renderIndicator();
-  }
-}, {
-  root:carousel, threshold:0.5
-});
-var elementIndices = {};
-for (var i = 0; i < elements.length; i++) {
-  elementIndices[elements[i].getAttribute("id")] = i;
-  observer.observe(elements[i]);
-}
+})
+
+
+markNavdot(0)
+
+console.log(slideWrapper.scrollTop);
+
