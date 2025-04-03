@@ -1,11 +1,12 @@
 .content {
   padding: 0 48px 0 48px;
   /* height: 80vh; */
-  overflow-y: auto;
+  /* overflow-y: auto; */
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   position: relative;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 @media screen and (max-width: 375px) {
@@ -16,4 +17,9 @@
 
 .content::-webkit-scrollbar {
   display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth
 }

@@ -23,6 +23,7 @@
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   height: 100svh;
+  scroll-behavior: smooth !important;
 }
 
 @media screen and (max-width: 375px) {
