@@ -5,7 +5,9 @@
 }
 
 @media screen and (max-width: 430px) {
-  .portfolio__pointImage {
+
+  .portfolio__pointImage,
+  .portfolio__pointImage_nonreverse {
     height: 30px;
   }
 }
