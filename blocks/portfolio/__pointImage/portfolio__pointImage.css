@@ -1,4 +1,5 @@
-.portfolio__pointImage {
+.portfolio__pointImage,
+.portfolio__pointImage_nonreverse {
   height: 50px;
   padding-right: 10px;
 }
